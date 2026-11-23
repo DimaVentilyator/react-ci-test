@@ -4,6 +4,8 @@ import NoteItem from './components/NoteItem';
 import { useLocalStorage } from './hooks/useLocalStorage';
 
 export default function App() {
+
+  const oopsIMadeAMistake = "привет"; 
   
   const [notes, setNotes] = useLocalStorage('my-notes', []);
   const [searchQuery, setSearchQuery] = useState('');
