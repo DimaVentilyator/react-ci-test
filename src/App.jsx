@@ -5,7 +5,7 @@ import { useLocalStorage } from './hooks/useLocalStorage';
 
 export default function App() {
 
-  const oopsIMadeAMistake = "привет"; 
+  const oopsIMadeAMistake = 
   
   const [notes, setNotes] = useLocalStorage('my-notes', []);
   const [searchQuery, setSearchQuery] = useState('');
