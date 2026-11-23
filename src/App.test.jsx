@@ -5,6 +5,6 @@ import App from './App';
 describe('App', () => {
   it('renders without crashing', () => {
     render(<App />);
-    expect(true).toBe(true); // Просто проверяем, что тест работает
+    expect(true).toBe(false); // Просто проверяем, что тест работает
   });
 });
